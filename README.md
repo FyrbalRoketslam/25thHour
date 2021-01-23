@@ -1,7 +1,7 @@
 # 25th-Hour-Assignment-1
 GIMM 300 25th Hour Assignment 1
 
-Project Manager): 
+Project Manager: 
 Katherine Ward
 
 Digital Artist/Designer:
