@@ -1,6 +1,10 @@
 h1 {text-align: center;}
 
-.header_image
+.header_container
 {
-    
+    top:150px;
+}
+.header
+{
+    background-color: red;
 }
