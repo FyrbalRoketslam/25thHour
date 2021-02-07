@@ -2,9 +2,35 @@ h1 {text-align: center;}
 
 .header_container
 {
-    top:150px;
+    position:relative;
+}
+.header_container img
+{
+    width: 100%;
+    height:auto;
+}
+.header_container span
+{
+    position:absolute;
+    width: 25%;
+    height: 80%;
+    top: 25px;
+	bottom:0;
+	left: 0;
+	right:0;
+    z-index:1;
+    background:transparent url(Images/flowers.jpg) no-repeat;
+    background-position: left;
 }
 .header
 {
-    background-color: red;
+    background-color: cadetblue;
+}
+
+.nav
+{
+    margin:auto; 
+    border:1px solid; 
+    width:1000px;
+    height:40px;
 }
