@@ -60,7 +60,6 @@ body
   padding: 14px 16px;
   text-decoration: none;
   justify-content: center;
-  float:left;
 }
 .navbar a:hover {
     background-color: #111;
