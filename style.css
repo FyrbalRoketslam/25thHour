@@ -19,7 +19,7 @@ h1 {text-align: center;}
 	left: 0;
 	right:0;
     z-index:1;
-    background:transparent url(Images/flowers.jpg) no-repeat;
+    background:transparent url(Images/Logo.PNG) no-repeat;
     background-position: left;
 }
 .header
