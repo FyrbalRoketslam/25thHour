@@ -113,3 +113,54 @@ body
         height: 300px;
     }
 }
+
+/* Alan's page */
+.Alan_Content
+{
+    display:flex;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    padding:50px;
+    border: 2px solid black;
+}
+.alan_container
+{
+    flex: 3;
+    padding: 50px;
+}
+.alan_container2
+{
+    margin-left: auto;
+    flex: 2;
+    padding: 50px;
+}
+.Poem_1
+{
+    flex:3;
+}
+.Poem_2
+{
+    flex:2;
+}
+#poem_head
+{
+    font-size:xx-large;
+    border:1px dashed black;
+}
+#poem_content
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+}
+#header_alan
+{
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header_description
+{
+    line-height: 2;
+    text-indent: 50px;
+    font-size: 18px;
+}
