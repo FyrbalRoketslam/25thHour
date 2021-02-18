@@ -2,6 +2,7 @@ h1 {text-align: center;}
 body
 {
     margin:0px;
+    background-color: #D6D6D6;
 }
 .header_container
 {
@@ -44,7 +45,7 @@ body
 }
 .navbar-container ul
 {
-    list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -63,7 +64,14 @@ body
 }
 .navbar a:hover {
     background-color: #111;
+    text-decoration: underline;
   }
+
+.alan_Nav a:hover{
+        background-color:aliceblue;
+    color: #0F14D4;
+    display: inline-block;
+}
 /*
 .navbar
 {
@@ -163,4 +171,11 @@ body
     line-height: 2;
     text-indent: 50px;
     font-size: 18px;
+}
+
+
+/* Rob's Page*/
+
+.rob_About_Me_Photo{
+    float: right;
 }
