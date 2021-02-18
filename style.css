@@ -1,0 +1,166 @@
+h1 {text-align: center;}
+body
+{
+    margin:0px;
+}
+.header_container
+{
+    position:relative;
+}
+.header_image
+{
+   position:absolute;
+}
+.header_container h1
+{
+    position: absolute;
+    z-index:1;
+    color:black;
+    bottom:50px;
+    left:50%;
+    text-align: right;
+    font-size:72px;
+}
+.header_container img
+{
+    width: 100%;
+    height:auto;
+}
+.header_container span
+{
+    position:absolute;
+    width: 300px;
+    height: 80%;
+    top: 0px;
+	bottom:0;
+	left: 0;
+    z-index:2;
+}
+
+.navbar-container
+{
+    margin:0px;
+    padding:0;
+}
+.navbar-container ul
+{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.navbar a
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: center;
+}
+.navbar a:hover {
+    background-color: #111;
+  }
+/*
+.navbar
+{
+    flex:1;
+    margin:0px; 
+    border:1px solid; 
+    width:100%;
+    height:40px;
+    background-color: rgba(128, 0, 128, 0.452);
+}
+*/
+
+.row
+{
+    display:flex;
+}
+
+.column
+{
+    margin:20px;
+    background-color:purple;
+    flex: 1;
+    padding:20px;
+    height: 300px;
+}
+
+.box-image
+{
+    width:40%;
+}
+.box-image img
+{
+    width:100%;
+    height: 180px;
+    display:block;
+    object-fit: cover;
+}
+@media (max-width: 800px)
+{
+    .row
+    {
+        flex-direction: column;
+        height: 1000px;
+    }
+    .column
+    {
+        height: 300px;
+    }
+}
+
+/* Alan's page */
+.Alan_Content
+{
+    display:flex;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    padding:50px;
+    border: 2px solid black;
+}
+.alan_container
+{
+    flex: 3;
+    padding: 50px;
+}
+.alan_container2
+{
+    margin-left: auto;
+    flex: 2;
+    padding: 50px;
+}
+.Poem_1
+{
+    flex:3;
+}
+.Poem_2
+{
+    flex:2;
+}
+#poem_head
+{
+    font-size:xx-large;
+    border:1px dashed black;
+}
+#poem_content
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+}
+#header_alan
+{
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header_description
+{
+    line-height: 2;
+    text-indent: 50px;
+    font-size: 18px;
+}
