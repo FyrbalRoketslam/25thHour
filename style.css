@@ -49,8 +49,8 @@ body
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-
+  background-color: #5A3AB9;
+  text-align: center;
 }
 
 .navbar a
@@ -63,14 +63,15 @@ body
   justify-content: center;
 }
 .navbar a:hover {
-    background-color: #111;
+    background-color: #775CC8;
     text-decoration: underline;
   }
 
-.alan_Nav a:hover{
-        background-color:aliceblue;
-    color: #0F14D4;
-    display: inline-block;
+.navbar{
+    flex:1;
+    padding: 0.5rem 0;
+    overflow: hidden;
+    border: 5px solid #FFE564;
 }
 /*
 .navbar
@@ -92,7 +93,7 @@ body
 .column
 {
     margin:20px;
-    background-color:purple;
+    background-color:#5558DA;
     flex: 1;
     padding:20px;
     height: 300px;
