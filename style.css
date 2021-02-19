@@ -312,3 +312,21 @@ time
     page-break-before: always;
     opacity: 0.7;
 }
+
+.Katherine
+{
+    font-family: 'Garamond';
+}
+
+.Katherine #SubHeader
+{
+    text-align: center;
+}
+
+.Katherine #LeftAlign
+{
+    align-content: left;
+}
+
+
+/*End Katherine's Content*/
