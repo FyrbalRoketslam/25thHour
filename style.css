@@ -1,7 +1,10 @@
 h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
 body
 {
     margin:0px;
+    background-color: #D6D6D6;
 }
 .header_container
 {
@@ -44,12 +47,12 @@ body
 }
 .navbar-container ul
 {
-    list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-
+  background-color: #5A3AB9;
+  text-align: center;
 }
 
 .navbar a
@@ -62,8 +65,16 @@ body
   justify-content: center;
 }
 .navbar a:hover {
-    background-color: #111;
+    background-color: #775CC8;
+    text-decoration: underline;
   }
+
+.navbar{
+    flex:1;
+    padding: 0.5rem 0;
+    overflow: hidden;
+    border: 5px solid #FFE564;
+}
 /*
 .navbar
 {
@@ -84,7 +95,7 @@ body
 .column
 {
     margin:20px;
-    background-color:purple;
+    background-color:#5558DA;
     flex: 1;
     padding:20px;
     height: 300px;

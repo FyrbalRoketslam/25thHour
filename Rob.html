@@ -1,50 +1,66 @@
-<style>
-    body {
-      background-color: #f5f5f5;
-    }
-
-    .Header{
-
-    }
-
-    .TopBarNav{
-        border-style: solid;
-        border-color: black;
-        border-width: 7px;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .TopNavIcon1{
-        border-style: dotted;
-        border-color:black;
-        text-align: center;
-        border-width: 3px;
-        padding: 5px;
-    }
-  </style>
 <!DOCTYPE html>
-
-
 <html>    
-    <!--Top Nav Bar-->
-    <div class="TopBarNav">
-        <a class="TopNavIcon1" href="index.html">Home</a>
-        <a class="TopNavIcon1" href="Alan.html">Alan’s page</a>
-        <a class="TopNavIcon1" href="Elise.html">Elise’s page</a>
-        <a class="TopNavIcon1" href="Katherine.html">Kate's page</a>
-        <a class="TopNavIcon1" href="Killian.html">Killian's page</a>
-        <a class="TopNavIcon1" href="tags.html">Tags page</a>
-    </div>
-    <!--End Top Nav Bar-->
-
-    <!--Header-->
     <head>
-    <div>
-        <h1 class="Header">Rob Buentgen</h1>
-        <a class="MePhoto"><img src="https://i.imgur.com/oEHPHEc.jpg" alt="Photo of Rob" height="260px" width="200px"/></a>
-    </div>
-    <!--End Header-->
+        <title>Robert Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
+    <body>
+        <!--Header-->
+        <div class="header_container">
+            <div id="header_image">
+                <img style="height:250px; width: 100%;" src="Images\galaxy1.png">
+                <span> <img src="Images/Logo.PNG"></span>
+            </div>
+            <h1>Robert</h1>
+        </div>
+        <!--Header End-->
+
+        <!--Nav Bar-->
+        <div class="navbar-container">
+            <ul class="navbar">
+                    <a href=index.html>Home</a>
+                    <a href=styles.html>Styles</a>
+                    <a href=nested.html>Nested examples</a>
+                    <a href=attributes.html>Attribute examples</a>
+                    <a href=tags.html>Tag examples</a>
+                    <a href=Alan.html>Alan’s page</a>
+                    <a href=Katherine.html>Kate’s page</a>
+                    <a href=Rob.html>Rob’s page</a>
+                    <a href=Killian.html>Killian’s page</a>
+                    <a href=Elise.html>Elise’s page</a>
+            </ul>
+        </div>
+        <!--Nav Bar End-->
+
+        <!--Main Content-->
+
+            <!--Title-->
+            <div class="Rob_Content">
+                <div class="rob_container">
+                    <h1 id="rob_header">About Me</h1>
+                </div>
+            </div>
+            <!--Title End-->
+
+
+            <!--About Me-->
+            <div class="Rob_Content">
+                <div class="rob_container">
+                    <a class="rob_About_Me_Photo"><img src="https://i.imgur.com/oEHPHEc.jpg" alt="Photo of Rob" height="260px" width="200px"/></a>
+                    <p class="rob_About_Me_Bio">Hello i'm Robert. Off to the right is a photo of me.
+                                                I am currently a sophmore in the GIMM department. I 
+                                                enjoy messing around with electronics and being outdoors. Here 
+                                                is some more cool stuff:
+
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                    </p>
+                </div>
+            </div>
+            <!--About Me End-->
+        
+        
+        <!--Main Content End-->
+    </body>
 </html>
