@@ -138,6 +138,20 @@ body
     border-radius: 37px;
 }
 
+/* Attributes page */
+.Attribute_Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: solid 3px #3e16b4;
+    background-color: #fff7ce;
+    padding: 50px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    border-radius: 37px;
+}
 
 
 /* Alan's page */
