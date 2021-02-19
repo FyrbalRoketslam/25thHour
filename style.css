@@ -280,3 +280,35 @@ body
     text-indent: 50px;
     font-size: 18px;
 }
+
+/*Katherine's Content*/
+
+ruby
+{
+    color: darkred;
+    font-family: 'Courier New';
+}
+
+rt
+{
+    background-color: dodgerblue;
+    font-size: medium;
+}
+
+del
+{
+    text-decoration: wavy underline;
+    text-shadow: 3px 5px darkslategrey;
+}
+
+blockquote
+{
+    text-transform: capitalize;
+    text-indent: 10px;
+}
+
+time
+{
+    page-break-before: always;
+    opacity: 0.7;
+}
