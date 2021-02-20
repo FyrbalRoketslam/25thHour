@@ -135,8 +135,6 @@ body
 .row
 {
     display:flex;
-    gap:20px;
-    margin-bottom: 50px;
 }
 
 .column
@@ -211,7 +209,7 @@ body
 }
 
 .image__overlay--primary {
-    
+    background: #009578;
 }
 
 .image__overlay > * {
@@ -406,31 +404,120 @@ time
     opacity: 0.7;
 }
 
+@keyframes KateFadeIn
+{
+    0% {opacity: 50%}
+    100% {opacity: 100%}
+}
+
 .Katherine
 {
     font-family: 'Garamond';
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
+    align-content: center;
     width: 100%;
+    margin: 0px;
 }
 
 .Katherine #About_Me
 {
-    padding-left: 50px;
-    padding-right: 50px;
-    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 50px 100px;
     width: 60%;
-    align-self: center;
+    align-content: center;
+}
+
+.Katherine h3
+{
+    text-align: left;
+}
+
+.Katherine p
+{
+    text-indent: 30px;
 }
 
 .Katherine #Image
 {
-    flex-grow: 1;
-    position: absolute;
-    right: 0px;
-    width: 40%;
+    align-content: center;
+    padding: 50px;
+    animation-name: KateFadeIn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transition: ease-out;
 }
 
 
+
 /*End Katherine's Content*/
+
+/*Robert Content*/
+.Rob_Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: solid 3px #0F14DA;
+    background-color: #5558Da;
+    padding: 50px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    border-radius: 37px;
+}
+
+.Rob_Content #rob_About_Me_Photo{
+    float: right;
+    border: solid 3px #0F14DA;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.Rob_Content h1{
+    color: #fff7ce;
+}
+
+.Rob_Content #rob_About_Me_Bio{
+    color: #fff7ce;
+    margin-left: 50px;
+}
+
+.frog_animation{
+    position: relative;
+    animation-name:Bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Bounce{
+    0%{
+        bottom: -300px;
+    }
+
+    15%{
+        bottom: 50px
+    }
+
+    30%{
+        bottom: 0px;
+    }
+
+    45%{
+        bottom: 40px;
+    }
+
+    60%{
+        bottom: 0px;
+    }
+
+    75%{
+        bottom:30px;
+    }
+    100%{
+        bottom: -300px;
+    }
+}
+/*Robert Content End*/ 
