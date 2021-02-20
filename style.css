@@ -78,17 +78,7 @@ body
     overflow: hidden;
     border: 5px solid #FFE564;
 }
-/*
-.navbar
-{
-    flex:1;
-    margin:0px; 
-    border:1px solid; 
-    width:100%;
-    height:40px;
-    background-color: rgba(128, 0, 128, 0.452);
-}
-*/
+
 /* Attributes page */
 .Attribute_Content{
     display: flex;
@@ -406,3 +396,64 @@ time
 
 
 /*End Katherine's Content*/
+
+/*Robert Content*/
+.Rob_Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: solid 3px #0F14DA;
+    background-color: #fff7ce;
+    padding: 50px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    border-radius: 37px;
+}
+
+.rob_About_Me_Photo{
+    float: right;
+}
+
+.frog_animation{
+    position: relative;
+    animation-name:Bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Bounce{
+    0%{
+        bottom: -300px;
+    }
+
+    15%{
+        bottom: 50px
+    }
+
+    30%{
+        bottom: 0px;
+    }
+
+    45%{
+        bottom: 40px;
+    }
+
+    60%{
+        bottom: 0px;
+    }
+
+    75%{
+        bottom:30px;
+    }
+    100%{
+        bottom: -300px;
+    }
+}
+
+
+
+
+
+/*Robert Content End*/
