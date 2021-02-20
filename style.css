@@ -316,16 +316,27 @@ time
 .Katherine
 {
     font-family: 'Garamond';
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 100%;
 }
 
-.Katherine #SubHeader
+.Katherine #About_Me
 {
-    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-grow: 5;
+    width: 60%;
+    align-self: center;
 }
 
-.Katherine #LeftAlign
+.Katherine #Image
 {
-    align-content: left;
+    flex-grow: 1;
+    position: absolute;
+    right: 0px;
+    width: 40%;
 }
 
 
