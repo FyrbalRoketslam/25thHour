@@ -135,6 +135,8 @@ body
 .row
 {
     display:flex;
+    gap:20px;
+    margin-bottom: 50px;
 }
 
 .column
@@ -209,7 +211,7 @@ body
 }
 
 .image__overlay--primary {
-    background: #009578;
+    
 }
 
 .image__overlay > * {
