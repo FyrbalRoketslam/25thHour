@@ -406,14 +406,27 @@ time
     margin-right: 50px;
     margin-bottom: 50px;
     border: solid 3px #0F14DA;
-    background-color: #fff7ce;
+    background-color: #5558Da;
     padding: 50px;
     box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
     border-radius: 37px;
 }
 
-.rob_About_Me_Photo{
+.Rob_Content #rob_About_Me_Photo{
     float: right;
+    border: solid 3px #0F14DA;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.Rob_Content h1{
+    color: #fff7ce;
+}
+
+.Rob_Content #rob_About_Me_Bio{
+    color: #fff7ce;
+    margin-left: 50px;
 }
 
 .frog_animation{
