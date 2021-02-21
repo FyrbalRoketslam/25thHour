@@ -135,6 +135,7 @@ body
 .row
 {
     display:flex;
+    margin-bottom: 50px;;
 }
 
 .column
@@ -209,7 +210,7 @@ body
 }
 
 .image__overlay--primary {
-    background: #009578;
+   
 }
 
 .image__overlay > * {
@@ -729,3 +730,71 @@ time
     }
 }
 /*Robert Content End*/ 
+/*Killian content start*/
+.Killian_Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: solid 3px #da490f;
+    background-color: #ff0000;
+    padding: 50px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    border-radius: 37px;
+}
+
+.Killian_Content #About_me_Image{
+    float: right;
+    border: solid 3px #0fb5da;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.Killian_Content h1{
+    color: #ffffff;
+}
+
+.Killian_Content #About_Me_Bio{
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+.puck_animation{
+    position: relative;
+    animation-name:Bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Bounce{
+    0%{
+        bottom: -200px;
+    }
+
+    15%{
+        bottom: 50px
+    }
+
+    30%{
+        bottom: 0px;
+    }
+
+    45%{
+        bottom: 50px;
+    }
+
+    60%{
+        bottom: 0px;
+    }
+
+    75%{
+        bottom:40px;
+    }
+    100%{
+        bottom: -300px;
+    }
+}
+/*Killian Content End*/
