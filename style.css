@@ -290,10 +290,10 @@ body
 
 .Ellis
 {
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 50px;
+    margin-right: 40px;
     flex: 2;
     padding: 2px;
     background-color: rgb(242, 76, 248);
@@ -302,7 +302,7 @@ body
     background-image: url(https://i.etsystatic.com/7680978/r/il/658eec/1824928522/il_570xN.1824928522_np82.jpg); 
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.7);
       background-blend-mode: lighten;
    
     
@@ -312,14 +312,95 @@ body
 {
    
     font-size: 50px;
-    font-family: 'Karla', serif;
+    font-family: 'Karla', sans-serif;
     color: rgb(255, 157, 173);    
     text-shadow: -6px 6px 5px rgb(7, 6, 7) ;
+}
 
+.Ellis_Content
+{
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    border:5px ridge silver; 
+    background-color:rgb(214, 214, 214);
+    padding: 2px;
+}
+
+
+.Ellis_Content img
+{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: -7px 10px 5px rgb(51, 51, 51);
+
+
+}
+
+
+
+.More_Stuff
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    border: 50px rgb(7, 6, 7);
+    background-image: url( https://lh3.googleusercontent.com/proxy/AdIaGcgR-A0chev2kfzxCZbHUwkspTDT5NkWzNLejv1rpfO8-ppY8HKkbrSIkheJLrY5i4jncVIuPqXJddkvu_F9);
+
+    background-size: 50%;
+    background-color:rgb(214, 214, 214,0.7);
+      background-blend-mode: lighten;
+   
+}
+
+.More_Stuff img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: -7px 10px 5px rgb(51, 51, 51);
+
+}
+
+#Star_Dance img
+{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    scroll-padding-bottom: 20px;
+   
    
 
-   
- 
+
+}
+
+#Good_Stuff
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Martel Sans', sans-serif;
+    color: rgb(211, 109, 126);
+    -webkit-text-stroke: .01px black;
+    line-height: 1.5;
+    text-indent: 30px;
+    text-shadow: -3px 2px 2px rgb(97, 49, 78) ;
+    
 }
 
 #About_Elise
@@ -332,17 +413,180 @@ body
     font-size: 50px;
     font-weight: bolder;
     font-family: 'Martel Sans', sans-serif;
-    color: rgb(255, 157, 173);
-    -webkit-text-stroke: .1px black;
-    border:5px ridge silver;
-    line-height: 2;
+    color: rgb(211, 109, 126);
+    -webkit-text-stroke: .01px black;
+    line-height: 1.5;
     text-indent: 50px;
-    background-color:white;
-    text-shadow: -4px 2px rgb(97, 49, 78) ;
+    text-shadow: -3px 2px 2px rgb(97, 49, 78) ;
     
 }
 
 
+
+
+
+#Star_Dance
+{
+    animation: animationFrames linear 3s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    -webkit-animation: animationFrames linear 3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: animationFrames linear 3s;
+    -moz-animation-iteration-count: 1;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: animationFrames linear 3s;
+    -o-animation-iteration-count: 1;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: animationFrames linear 3s;
+    -ms-animation-iteration-count: 1;
+    -ms-transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animationFrames{
+    0% {
+      transform:  translate(0px,0px)  rotate(0deg) ;
+    }
+    14% {
+      transform:  translate(0px,-46px)  rotate(-22deg) ;
+    }
+    34% {
+      transform:  translate(0px,8px)  rotate(5deg) ;
+    }
+    50% {
+      transform:  translate(0px,24px)  rotate(24deg) ;
+    }
+    70% {
+      transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+    100% {
+      transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+  
+  
+ 
+    0% {
+      -moz-transform:  translate(0px,0px)  rotate(0deg) ;
+    }
+    14% {
+      -moz-transform:  translate(0px,-46px)  rotate(-22deg) ;
+    }
+    34% {
+      -moz-transform:  translate(0px,8px)  rotate(5deg) ;
+    }
+    50% {
+      -moz-transform:  translate(0px,24px)  rotate(24deg) ;
+    }
+    70% {
+      -moz-transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+    100% {
+      -moz-transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+  
+  
+ 
+    0% {
+      -webkit-transform:  translate(0px,0px)  rotate(0deg) ;
+    }
+    14% {
+      -webkit-transform:  translate(0px,-46px)  rotate(-22deg) ;
+    }
+    34% {
+      -webkit-transform:  translate(0px,8px)  rotate(5deg) ;
+    }
+    50% {
+      -webkit-transform:  translate(0px,24px)  rotate(24deg) ;
+    }
+    70% {
+      -webkit-transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+    100% {
+      -webkit-transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+  
+  
+ 
+    0% {
+      -o-transform:  translate(0px,0px)  rotate(0deg) ;
+    }
+    14% {
+      -o-transform:  translate(0px,-46px)  rotate(-22deg) ;
+    }
+    34% {
+      -o-transform:  translate(0px,8px)  rotate(5deg) ;
+    }
+    50% {
+      -o-transform:  translate(0px,24px)  rotate(24deg) ;
+    }
+    70% {
+      -o-transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+    100% {
+      -o-transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+  
+  
+ 
+    0% {
+      -ms-transform:  translate(0px,0px)  rotate(0deg) ;
+    }
+    14% {
+      -ms-transform:  translate(0px,-46px)  rotate(-22deg) ;
+    }
+    34% {
+      -ms-transform:  translate(0px,8px)  rotate(5deg) ;
+    }
+    50% {
+      -ms-transform:  translate(0px,24px)  rotate(24deg) ;
+    }
+    70% {
+      -ms-transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+    100% {
+      -ms-transform:  translate(0px,0px)  rotate(7deg) ;
+    }
+}
+
+h2
+{
+    font-family: 'Martel', sans-serif;
+    font-weight: bold;
+    color: rgb(25, 0, 255);
+}
+
+button
+{
+color: blueviolet;
+font-size: larger;
+}
+
+ul{
+   text-align: center;
+   font-family: 'Karla', sans-serif;
+}
+
+table
+{
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+/*End Ellis's Stuff*/
 
 /*Katherine's Content*/
 
