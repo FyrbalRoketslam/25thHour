@@ -135,6 +135,7 @@ body
 .row
 {
     display:flex;
+    margin-bottom: 50px;;
 }
 
 .column
@@ -209,7 +210,7 @@ body
 }
 
 .image__overlay--primary {
-    background: #009578;
+   
 }
 
 .image__overlay > * {
