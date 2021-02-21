@@ -651,6 +651,13 @@ time
     text-align: left;
 }
 
+.Katherine h2
+{
+    color: black;
+    font-family: 'Garamond';
+    font-weight: bold;
+}
+
 .Katherine p
 {
     text-indent: 30px;
