@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@100&display=swap');
 
 h1 {text-align: center;}
 h2 {text-align: center;}
@@ -135,7 +136,7 @@ body
 .row
 {
     display:flex;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
 }
 
 .column
@@ -274,6 +275,7 @@ body
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 2;
+
 }
 #header_alan
 {
@@ -285,6 +287,58 @@ body
     line-height: 2;
     text-indent: 50px;
     font-size: 18px;
+}
+.alan_animation
+{
+    height: 40px;
+    width: 30%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+    position: relative;
+}
+.alan_animation h3
+{
+    padding: 8px;
+    color:whitesmoke;
+}
+#rect
+{
+    animation-name: thoughts;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes thoughts
+{
+    0%
+    {
+        left:0px;
+        background: linear-gradient(90deg, blue,magenta);
+    }
+    25%
+    {
+        left:500px;
+        background: linear-gradient(45deg, rgb(20, 142, 199),magenta);
+
+    }
+    50%
+    {
+        left:0px;
+        background: linear-gradient(180deg,rgb(62, 12, 224) rgb(6, 175, 241));
+
+    }
+     75%
+    {
+        left:-500px;
+        background: linear-gradient(45deg, rgb(20, 142, 199),magenta,);
+
+    }
+    100%
+    {
+        left:0px;
+        background: linear-gradient(90deg, blue,magenta);
+
+    }
 }
 
 /*Elise's Stuff*/
