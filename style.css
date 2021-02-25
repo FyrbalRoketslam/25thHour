@@ -719,6 +719,12 @@ time
     transition: ease-out;
 }
 
+.Katherine #byline
+{
+    font-size: medium;
+    text-indent: 30px;
+}
+
 
 
 /*End Katherine's Content*/
