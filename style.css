@@ -2,12 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@100&display=swap');
 
-h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
 body
 {
-    margin:0px;
     background-color: #D6D6D6;
 }
 .header_container
