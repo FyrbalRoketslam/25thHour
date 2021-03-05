@@ -132,14 +132,29 @@ body
     box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
     border-radius: 37px;
 }
+/*----- Calling row and column rowBB and columnBB to show its before bootstrap -----*/
 
-.row
+.footer{
+    min-height: 150px;
+    background: #3e16b4;
+}
+
+.index_top_row{
+    margin-bottom: 150px;
+}
+
+.index_bottom_row{
+    margin-bottom: 150px;
+}
+
+
+.rowBB
 {
     display:flex;
     margin-bottom: 50px;
 }
 
-.column
+.columnBB
 {
     margin:20px;
     flex: 1;
