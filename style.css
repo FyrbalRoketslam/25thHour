@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@100&display=swap');
-
+h1{text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
 body
@@ -130,11 +130,13 @@ body
     box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
     border-radius: 37px;
 }
-/*----- Calling row and column rowBB and columnBB to show its before bootstrap -----*/
+                        /*----- Calling row and column rowBB and columnBB to show its before bootstrap -----*/
 
 .footer{
     min-height: 150px;
-    background: #3e16b4;
+    background: #5A3AB9;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .index_top_row{
