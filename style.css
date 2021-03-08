@@ -54,7 +54,7 @@ body
 {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px 0px 10px 0px;
   overflow: hidden;
   background-color: #f8b0efa9;
   text-align: center;
@@ -65,7 +65,7 @@ body
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0px 16px;
   text-decoration: none;
   justify-content: center;
 }
@@ -75,11 +75,19 @@ a+a
     border-left: 2px solid #ffb147;
 }
 
-.navbar a:hover {
-    background-color: #e57adea9;
-  }
+a~a
+{
+    border-right: 2px solid #ffb147;
+}
 
-.navbar{
+.navbar a:hover
+{
+    background-color: #e57adea9;
+    justify-content: center;
+}
+
+.navbar
+{
     flex:1;
     padding: 0.5rem 0;
     overflow: hidden;
