@@ -13,16 +13,23 @@ body
 
 
 /* --- Index Start ---*/
-.header_container
+.header
 {
+  width: 100%;
+  margin: 0 auto;
+  /*
     position:relative;
     width: 100%;
+    */
 }
 .header_image
 {
-   position:center;
+
+   /*position:center;
    width: 100%;
    height: 300px;
+   margin: 0 auto;
+   */
 }
 .header-text
 {
