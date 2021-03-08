@@ -13,26 +13,13 @@ body
 
 
 /* --- Index Start ---*/
-.header
-{
-  width: 100%;
+.container-fluid, .head{
+  padding-left: 0px;
+  padding-right: 0px;
   margin: 0 auto;
-  min-height: 100px;
-  max-height: none;
-  /*
-    position:relative;
-    width: 100%;
-    */
+  overflow:hidden;
 }
-.header_image
-{
 
-   /*position:center;
-   width: 100%;
-   height: 300px;
-   margin: 0 auto;
-   */
-}
 .header-text
 {
     position: absolute;
