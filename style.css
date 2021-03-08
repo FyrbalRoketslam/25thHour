@@ -17,6 +17,8 @@ body
 {
   width: 100%;
   margin: 0 auto;
+  min-height: 100px;
+  max-height: none;
   /*
     position:relative;
     width: 100%;
