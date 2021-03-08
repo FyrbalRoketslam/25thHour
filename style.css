@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@100&display=swap');
-
-h1 {text-align: center;}
+h1{text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
 body
 {
-    margin:0px;
     background-color: #D6D6D6;
 }
 .header_container
@@ -48,6 +46,9 @@ body
 {
     margin:0px;
     padding:0;
+    position:absolute;
+    width: 100%;
+    bottom: 0px;
 }
 .navbar-container ul
 {
@@ -55,7 +56,7 @@ body
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #5A3AB9;
+  background-color: #f8b0efa9;
   text-align: center;
 }
 
@@ -68,16 +69,21 @@ body
   text-decoration: none;
   justify-content: center;
 }
+
+a+a
+{
+    border-left: 2px solid #ffb147;
+}
+
 .navbar a:hover {
-    background-color: #775CC8;
-    text-decoration: underline;
+    background-color: #e57adea9;
   }
 
 .navbar{
     flex:1;
     padding: 0.5rem 0;
     overflow: hidden;
-    border: 5px solid #FFE564;
+    /*border: 5px solid #FFE564;*/
 }
 /*
 .navbar
@@ -132,14 +138,31 @@ body
     box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
     border-radius: 37px;
 }
+                        /*----- Calling row and column rowBB and columnBB to show its before bootstrap -----*/
 
-.row
+.footer{
+    min-height: 150px;
+    background: #5A3AB9;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.index_top_row{
+    margin-bottom: 150px;
+}
+
+.index_bottom_row{
+    margin-bottom: 150px;
+}
+
+
+.rowBB
 {
     display:flex;
     margin-bottom: 50px;
 }
 
-.column
+.columnBB
 {
     margin:20px;
     flex: 1;
@@ -717,6 +740,12 @@ time
     animation-duration: 1s;
     animation-iteration-count: 1;
     transition: ease-out;
+}
+
+.Katherine #byline
+{
+    font-size: medium;
+    text-indent: 30px;
 }
 
 
