@@ -69,9 +69,14 @@ body
   text-decoration: none;
   justify-content: center;
 }
+
+a+a
+{
+    border-left: 2px solid #ffb147;
+}
+
 .navbar a:hover {
     background-color: #e57adea9;
-    text-decoration: underline;
   }
 
 .navbar{
