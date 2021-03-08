@@ -83,15 +83,7 @@ body
   padding: 0px 15px;
   text-decoration: none;
   justify-content: center;
-}
-
-a+a
-{
     border-left: 2px solid #ffb147;
-}
-
-a~a
-{
     border-right: 2px solid #ffb147;
 }
 
