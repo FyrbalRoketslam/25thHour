@@ -67,7 +67,6 @@ body
     padding-left: 40px;
 }
 
-
 .navbar-container
 {
     margin:0px;
@@ -108,7 +107,6 @@ body
 {
     flex:1;
     padding: 0.5rem 0;
-    overflow: hidden;
     /*border: 5px solid #FFE564;*/
 }
 /*
@@ -122,6 +120,8 @@ body
     background-color: rgba(128, 0, 128, 0.452);
 }
 */
+
+
 .navbar_bootstrap{
   height: 150px;
   width: 100%;
