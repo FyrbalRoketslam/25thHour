@@ -68,14 +68,35 @@ body
 }
 
 .navbar-nav.navbar-center {
-    height: inherit;
     position: absolute;
     left: 50%;
+    font-size: 25px;
     transform: translatex(-50%);
     z-index: 9999;/* Makes the dropdown not get stuck behind other page content*/
 }
 
 
+nav
+{
+    height: 40px;
+}
+
+
+@media (max-width: 768px)
+{
+    .navbar-nav.navbar-center {
+
+    }
+
+}
+
+.nav-item,a{
+    padding: 0px 20px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+}
 /*
 .navbar-container
 {
@@ -117,9 +138,10 @@ body
 {
     flex:1;
     padding: 0.5rem 0;
-    /*border: 5px solid #FFE564;*/
+    border: 5px solid #FFE564;
 }
-/*
+*/
+
 .navbar
 {
     flex:1;
@@ -129,15 +151,10 @@ body
     height:40px;
     background-color: rgba(128, 0, 128, 0.452);
 }
-*/
 
 
-.navbar_bootstrap{
-  height: 150px;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
+
+
 
 .footer{
     min-height: 150px;
