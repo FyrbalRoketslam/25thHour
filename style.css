@@ -67,6 +67,15 @@ body
     padding-left: 40px;
 }
 
+.navbar-nav.navbar-center {
+    height: inherit;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index: 9999;/* Makes the dropdown not get stuck behind other page content*/
+}
+
+/*
 .navbar-container
 {
     margin:0px;
