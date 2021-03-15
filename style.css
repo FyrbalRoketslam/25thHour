@@ -189,8 +189,6 @@ nav
 
 /* Attributes page */
 .Attribute_Content{
-    display: flex;
-    flex-direction: column;
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
@@ -203,8 +201,6 @@ nav
 }
 /*Tags Page*/
 .Tags_Content{
-    display: flex;
-    flex-direction: column;
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
@@ -217,8 +213,6 @@ nav
 }
 /*Nested Page*/
 .Nested_Content{
-    display: flex;
-    flex-direction: column;
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
