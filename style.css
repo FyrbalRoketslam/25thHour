@@ -379,14 +379,9 @@ nav
     padding: 8px;
     color:whitesmoke;
 }
-#rect
-{
-    animation-name: thoughts;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-.slider-wrapper {
 
+.slider-wrapper {
+    animation-name: slide;
     font-size: 40px;
     color:#aaa;
     font-weight: bold;
