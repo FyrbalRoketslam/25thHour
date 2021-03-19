@@ -24,7 +24,6 @@ body
 {
     position: absolute;
     z-index:1;
-    color:black;
     bottom:50px;
     left:50%;
     text-align: right;
@@ -97,7 +96,7 @@ nav
     position: relative;
     display: flex;
 }
-/*
+
 .navbar-container
 {
     margin:0px;
@@ -140,7 +139,7 @@ nav
     padding: 0.5rem 0;
     border: 5px solid #FFE564;
 }
-*/
+
 
 .navbar
 {
