@@ -62,21 +62,20 @@
   <div class="jumbotron">
     <h1 id='info' class="display-4">Game Title</h1>
         <hr class="my-4">
-        <div class='row'>
+        <div class='row' style="text-align: center;">
             <div class='col'>
-                <p id='playerHealth' class="lead">Player Score: 50</p>
-            </div>
-            <div class='col'>
-                <p id='enemyHealth' class="lead">Enemy Score: 50</p>
+                <p id='playerHealth' class="lead">Player Score: 0</p>
             </div>
         </div>
   </div>
 </div>
-
-    <!-- EnemyCards -->
-    <div class="card-group card-container mx-auto">
+    <!--Start Of Enemy Cards-->
+    <div class='container-fluid banner-custom-player'>
+        <p class='lead' style='text-align: center;'>Enemy Cards</p>
+      </div>
+      <div class="card-group card-container mx-auto">
         <div class="card">
-          <img src="Images\frog.png" class="card-img-top" >
+          <img src="Images\ConstarotCards\AndromedaCard.png" class="card-img-top" >
           <div class="card-body">
             <h5 class="card-title card-name">Name</h5>
             <p class="card-text card-attack">Attack: 10</p>
@@ -89,7 +88,7 @@
         </div>
 
         <div class="card">
-          <img src="Images\frog.png" class="card-img-top" >
+          <img src="Images\ConstarotCards\CygnusCard.png" class="card-img-top" >
           <div class="card-body">
             <h5 class="card-title card-name">Name</h5>
             <p class="card-text card-attack">Attack: 10</p>
@@ -100,7 +99,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="Images\frog.png" class="card-img-top" >
+          <img src="Images\ConstarotCards\DracoCard.png" class="card-img-top" >
           <div class="card-body">
             <h5 class="card-title card-name">Name</h5>
             <p class="card-text card-attack">Attack: 10</p>
@@ -111,6 +110,46 @@
           </div>
         </div>
       </div>
+    <!--End of Enemy Cards-->
+
+    <!-- Start of Three Card Decks -->
+    <div class='container-fluid banner-custom-player'>
+        <p class='lead' style='text-align: center;'>Draw Cards</p>
+    </div>
+
+        <!--Sword Card Deck-->
+        <div class="card-group card-container mx-auto">
+            <div class="card">
+            <img src="Images\ConstarotCards\SwordsCardBack.png" class="card-img-top" >
+            <div class="card-body">
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"></small>
+            </div>
+        </div>
+
+        <!--Wand Card Deck-->
+        <div class="card">
+          <img src="Images\ConstarotCards\WandsCardBack.png" class="card-img-top" >
+          <div class="card-body">
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"></small>
+          </div>
+        </div>
+
+        <!--Cup Card Deck-->
+        <div class="card">
+          <img src="Images\ConstarotCards\CupsCardBack.png" class="card-img-top" >
+          <div class="card-body">
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+      <!--End Of Drawing Deck-->
+
 
       <!-- Player Cards -->
       <div class='container-fluid banner-custom-player'>
@@ -118,7 +157,7 @@
       </div>
       <div class="card-group card-container mx-auto">
         <div class="card">
-          <img src="Images\frog.png" class="card-img-top" >
+          <img src="Images\ConstarotCards\AndromedaCard.png" class="card-img-top" >
           <div class="card-body">
             <h5 class="card-title card-name">Name</h5>
             <p class="card-text card-attack">Attack: 10</p>
@@ -131,7 +170,7 @@
         </div>
 
         <div class="card">
-          <img src="Images\frog.png" class="card-img-top" >
+          <img src="Images\ConstarotCards\CygnusCard.png" class="card-img-top" >
           <div class="card-body">
             <h5 class="card-title card-name">Name</h5>
             <p class="card-text card-attack">Attack: 10</p>
@@ -142,7 +181,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="Images\frog.png" class="card-img-top" >
+          <img src="Images\ConstarotCards\DracoCard.png" class="card-img-top" >
           <div class="card-body">
             <h5 class="card-title card-name">Name</h5>
             <p class="card-text card-attack">Attack: 10</p>
@@ -153,12 +192,13 @@
           </div>
         </div>
       </div>
+    
 
 
 
 
 
-
+    <script src="game.js"></script>
   </body>
   <footer>
     <!--Footer Start-->
