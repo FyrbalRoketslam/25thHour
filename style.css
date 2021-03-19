@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@100&display=swap');
-h1{text-align: center;}
+h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
 body
@@ -123,8 +123,8 @@ nav
   padding: 0px 15px;
   text-decoration: none;
   justify-content: center;
-    border-left: 2px solid #ffb147;
-    border-right: 2px solid #ffb147;
+  border-left: 2px solid #ffb147;
+  border-right: 2px solid #ffb147;
 }
 
 .navbar a:hover
@@ -133,11 +133,10 @@ nav
     justify-content: center;
 }
 
-.navbar
-{
-    flex:1;
-    padding: 0.5rem 0;
-    border: 5px solid #FFE564;
+/*Change the nav drop down menu */
+.dropdown-item{
+    color: black;
+    background-color: lightgray;
 }
 
 
