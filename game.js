@@ -1,8 +1,13 @@
 //To Do
-//Make the players cards not take up space when they are not visible
-//  - display: none; ???
+//  1)Make the players cards not take up space when they are not visible
+//      - display: none; ???
+//  2)Make Button either not interactable when you select card or have them completely disappear
+//  3)Log what card the enemy selects
+//  4)Have a button to click next to see your reading
+//  5) Work on overall layout
 
 var playerHand = "";
+var enemyHand = "";
 var allCards = 
 [
     "Images/ConstarotCards/AndromedaCard.png",
@@ -14,6 +19,18 @@ var allCards =
     "Images/ConstarotCards/OphiuchusCard.png",
     "Images/ConstarotCards/OrionCard.png",
     "Images/ConstarotCards/VeddyCard.png"
+]
+var allCardsNames = 
+[
+    "Andromeda",
+    "Byakko",
+    "CoronaBorealis",
+    "Cygnus",
+    "Draco",
+    "Lyra",
+    "Ophiuchus",
+    "Orion",
+    "Veddy"
 ]
 
 //Deck Select Buttons
@@ -153,6 +170,8 @@ viewCupBtn.onclick = function(){
 
 //Player selects left card
 leftCardBtn.onclick = function(){
+    leftCardBtn.disabled = true;
+
     var middleCard = document.getElementById("player-middle-card");
     var rightCard = document.getElementById("player-right-card");
 
@@ -182,6 +201,7 @@ leftCardBtn.onclick = function(){
 
 //Player selects middle card
 middleCardBtn.onclick = function(){
+    middleCardBtn.disabled = true;
     var leftCard = document.getElementById("player-left-card");
     var rightCard = document.getElementById("player-right-card");
 
@@ -210,6 +230,7 @@ middleCardBtn.onclick = function(){
 
 //Player selects right card
 rightCardBtn.onclick = function(){
+    rightCardBtn.disabled = true;
     var leftCard = document.getElementById("player-left-card");
     var middleCard = document.getElementById("player-middle-card");
 
@@ -239,12 +260,8 @@ rightCardBtn.onclick = function(){
 
 
 function GenerateRandomEnemy(){
-    var enemyCardPhoto = document.getElementsByClassName("enemys-hand-photo");
     var enemyTest = document.getElementById("Test");
     var randomNumber = Math.floor(Math.random() * (9 - 0));
-    console.log(randomNumber);
-
-    //enemyCardPhoto.src = allCards[randomNumber];
-    enemyCardPhoto.src  = "Images/ConstarotCards/AndromedaCard.png";
-
+    enemyHand = allCardsNames[randomNumber];
+    enemyTest.src = allCards[randomNumber];
 }
