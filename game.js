@@ -8,7 +8,8 @@
 //  6) Work on overall layout
 
 var playerHand = "";
-var enemyHand = "";
+var playerCard = "";
+var enemyCard = "";
 var allCards = 
 [
     "Images/ConstarotCards/AndromedaCard.png",
@@ -118,7 +119,7 @@ cupBtn.onclick = function(){
         //Shows the enemys card
         enemyDeck.style.visibility = "visible";
         enemyDeck.style.display = "block";
-        playerHand = "cup";
+        playersHand = "cup";
     }
 }
 
@@ -193,16 +194,16 @@ leftCardBtn.onclick = function(){
 
     switch(playerHand){
         case "sword":
-            playerHand = "Orion";
+            playerCard = "Orion";
             break;
         case "wand":
-            playerHand = "Ophiuchus";
+            playerCard = "Ophiuchus";
             break;
         case "cup":
-            playerHand = "CoronaBorealis";
+            playerCard = "CoronaBorealis";
             break;
     }
-    console.log(playerHand);
+    console.log(playerCard);
 }
 
 //Player selects middle card
@@ -222,16 +223,16 @@ middleCardBtn.onclick = function(){
     GenerateRandomEnemy();
     switch(playerHand){
         case "sword":
-            playerHand = "Draco";
+            playerCard = "Draco";
             break;
         case "wand":
-            playerHand = "Vedrfolnir";
+            playerCard = "Vedrfolnir";
             break;
         case "cup":
-            playerHand = "Cygnus";
+            playerCard = "Cygnus";
             break;
     }
-    console.log(playerHand);
+    console.log(playerCard);
 }
 
 //Player selects right card
@@ -252,17 +253,17 @@ rightCardBtn.onclick = function(){
 
     switch(playerHand){
         case "sword":
-            playerHand = "Andromeda";
+            playerCard = "Andromeda";
             break;
         case "wand":
-            playerHand = "Byakko";
+            playerCard = "Byakko";
             break;
         case "cup":
-            playerHand = "Lyra";
+            playerCard = "Lyra";
             break;
     }
 
-    console.log(playerHand);
+    console.log(playerCard);
 }
 
 
