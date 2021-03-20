@@ -119,7 +119,7 @@ cupBtn.onclick = function(){
         //Shows the enemys card
         enemyDeck.style.visibility = "visible";
         enemyDeck.style.display = "block";
-        playersHand = "cup";
+        playerHand = "cup";
     }
 }
 
