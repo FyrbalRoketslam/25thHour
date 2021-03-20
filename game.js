@@ -261,12 +261,8 @@ rightCardBtn.onclick = function(){
             playerHand = "Lyra";
             break;
     }
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+
     console.log(playerHand);
-=======
->>>>>>> Stashed changes
 }
 
 
@@ -275,8 +271,4 @@ function GenerateRandomEnemy(){
     var randomNumber = Math.floor(Math.random() * (9 - 0));
     enemyHand = allCardsNames[randomNumber];
     enemyTest.src = allCards[randomNumber];
-<<<<<<< Updated upstream
-=======
->>>>>>> 720a4299c54a569678e8486b0d7e0a45dc746b6e
->>>>>>> Stashed changes
 }
