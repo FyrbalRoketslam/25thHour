@@ -141,6 +141,14 @@ viewCupBtn.onclick = function(){
 
 //Player selects left card
 leftCardBtn.onclick = function(){
+    var middleCard = document.getElementById("player-middle-card");
+    var rightCard = document.getElementById("player-right-card");
+
+    middleCard.style.visibility = "hidden";
+    middleCard.style.display = "none";
+    rightCard.style.visibility = "hidden";
+    rightCard.style.display = "none";
+
     switch(playerHand){
         case "sword":
 
@@ -157,6 +165,14 @@ leftCardBtn.onclick = function(){
 
 //Player selects middle card
 middleCardBtn.onclick = function(){
+    var leftCard = document.getElementById("player-left-card");
+    var rightCard = document.getElementById("player-right-card");
+
+    leftCard.style.visibility = "hidden";
+    leftCard.style.display = "none";
+    rightCard.style.visibility = "hidden";
+    rightCard.style.display = "none";
+
     switch(playerHand){
         case "sword":
 
@@ -173,6 +189,14 @@ middleCardBtn.onclick = function(){
 
 //Player selects right card
 rightCardBtn.onclick = function(){
+    var leftCard = document.getElementById("player-left-card");
+    var middleCard = document.getElementById("player-middle-card");
+
+    leftCard.style.visibility = "hidden";
+    leftCard.style.display = "none";
+    middleCard.style.visibility = "hidden";
+    middleCard.style.display = "none";
+
     switch(playerHand){
         case "sword":
 
