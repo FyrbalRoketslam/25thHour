@@ -235,6 +235,12 @@ nav
 }
 
 
+.player-deck{
+    max-width: 15em;
+    float: right;
+}
+
+
 
 /*------ Card Game End -------*/
 
