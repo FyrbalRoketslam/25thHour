@@ -69,18 +69,29 @@
         </div>
   </div>
 </div>
-    <!--Start Of Enemy Cards-->
-    <div class='container-fluid banner-custom-player'>
-        <p class='lead' >Enemy Cards</p>
+<!--Start Of Enemy Cards-->
+      <div class='container-fluid banner-custom-player'>
+          <p class='lead' >Enemy Cards</p>
+      </div>
+
+          <div id = 'enemy-cards'class="card-group card-container enemy-deck" style="visibility: hidden; display: none;">
+            <div class="card">
+              <img src="Images\ConstarotCards\BlankCardBack.png" class="card-img-top" >
+          </div>
+        </div>
+<!--End of Enemy Cards-->
+
+
+<!--Enemy Random Card Start-->
+  <div id= "enemy-card-drawn" class="card-group card-container mx-auto enemy-card" style="visibility: hidden;">
+    <div id ="enemy-random-card" class = "card">
+      <img id = "Test" class = "enemys-hand-photo" src="" >
+      <div class="card-body">
+        <p>Enemy Random Card</p>
+      </div>
     </div>
-
-      <div id = 'enemy-cards'class="card-group card-container enemy-deck" style="visibility: hidden; display: none;">
-        <div class="card">
-          <img src="Images\ConstarotCards\SwordsCardBack.png" class="card-img-top" >
-      </div>
-      </div>
-    <!--End of Enemy Cards-->
-
+  </div>
+<!--Enemy Random Card End-->
     <!-- Start of Three Card Decks -->
     <div class='container-fluid banner-custom-player'>
         <p id="draw-card-text" class='lead' style='text-align: center;'>Draw Cards</p>
@@ -130,7 +141,7 @@
       <div class="card-group card-container mx-auto player-card-deck-center" style="visibility: hidden;">
         <!--Left Card-->
         <div id = "player-left-card" class="player-cards card">
-          <img  id ="player-left-card-img" class = "player-hand-photo" src="" class="card-img-top" >
+          <img  class = "player-hand-photo" src="" class="card-img-top" >
             <div class="card-body">
               <p>left card</p>
             </div>
@@ -142,7 +153,7 @@
   
         <!--Middle Card-->
         <div id ="player-middle-card" class="player-cards card ">
-          <img id ="player-middle-card-img" class = "player-hand-photo" src="" class="card-img-top" >
+          <img class = "player-hand-photo" src="" class="card-img-top" >
           <div class="card-body">
             <p>center card</p>
           </div>
@@ -152,9 +163,9 @@
           </div>
         </div>
   
-        <!--Cup Card Deck-->
+        <!--Right Card-->
         <div id ="player-right-card" class="player-cards card">
-          <img id ="player-right-card-img" class = "player-hand-photo" src="" class="card-img-top" >
+          <img class = "player-hand-photo" src="" class="card-img-top" >
           <div class="card-body">
             <p>right card</p>
           </div>

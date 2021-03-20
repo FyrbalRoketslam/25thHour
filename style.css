@@ -227,12 +227,19 @@ nav
 .card-container {
     max-width: 50rem;
     margin-bottom: 20px;
-    padding: 20px;
 }
 
 .enemy-deck{
     max-width: 15em;
     float: left;
+}
+
+.enemy-card{
+    max-width: 15em;
+}
+
+.enemy-random-card{
+    float:center;
 }
 
 
@@ -244,6 +251,7 @@ nav
 .player-cards{
     max-width: 15em;
 }
+
 
 
 

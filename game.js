@@ -3,6 +3,18 @@
 //  - display: none; ???
 
 var playerHand = "";
+var allCards = 
+[
+    "Images/ConstarotCards/AndromedaCard.png",
+    "Images/ConstarotCards/ByakkoCard.png",
+    "Images/ConstarotCards/CoronaBorealisCard.png",
+    "Images/ConstarotCards/CygnusCard.png",
+    "Images/ConstarotCards/DracoCard.png",
+    "Images/ConstarotCards/LyraCard.png",
+    "Images/ConstarotCards/OphiuchusCard.png",
+    "Images/ConstarotCards/OrionCard.png",
+    "Images/ConstarotCards/VeddyCard.png"
+]
 
 //Deck Select Buttons
 var swordBtn = document.getElementById('sword-btn');
@@ -144,10 +156,15 @@ leftCardBtn.onclick = function(){
     var middleCard = document.getElementById("player-middle-card");
     var rightCard = document.getElementById("player-right-card");
 
+    
+
     middleCard.style.visibility = "hidden";
     middleCard.style.display = "none";
     rightCard.style.visibility = "hidden";
     rightCard.style.display = "none";
+
+    document.getElementById("enemy-card-drawn").style.visibility = "visible";
+    GenerateRandomEnemy();
 
     switch(playerHand){
         case "sword":
@@ -168,11 +185,15 @@ middleCardBtn.onclick = function(){
     var leftCard = document.getElementById("player-left-card");
     var rightCard = document.getElementById("player-right-card");
 
+    
+
     leftCard.style.visibility = "hidden";
     leftCard.style.display = "none";
     rightCard.style.visibility = "hidden";
     rightCard.style.display = "none";
 
+    document.getElementById("enemy-card-drawn").style.visibility = "visible";
+    GenerateRandomEnemy();
     switch(playerHand){
         case "sword":
 
@@ -192,10 +213,15 @@ rightCardBtn.onclick = function(){
     var leftCard = document.getElementById("player-left-card");
     var middleCard = document.getElementById("player-middle-card");
 
+    
+
     leftCard.style.visibility = "hidden";
     leftCard.style.display = "none";
     middleCard.style.visibility = "hidden";
     middleCard.style.display = "none";
+
+    document.getElementById("enemy-card-drawn").style.visibility = "visible";
+    GenerateRandomEnemy();
 
     switch(playerHand){
         case "sword":
@@ -209,4 +235,16 @@ rightCardBtn.onclick = function(){
 
             break;
     }
+}
+
+
+function GenerateRandomEnemy(){
+    var enemyCardPhoto = document.getElementsByClassName("enemys-hand-photo");
+    var enemyTest = document.getElementById("Test");
+    var randomNumber = Math.floor(Math.random() * (9 - 0));
+    console.log(randomNumber);
+
+    //enemyCardPhoto.src = allCards[randomNumber];
+    enemyCardPhoto.src  = "Images/ConstarotCards/AndromedaCard.png";
+
 }
