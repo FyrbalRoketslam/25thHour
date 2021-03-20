@@ -35,7 +35,30 @@ var randomNumberOutput  = document.getElementById('random-number-output');
 randomNumberButton.onclick = function(){
     var min = number1.value;
     var max = number2.value;
+    var rand = 0;
     if(min.length > 0 && max.length > 0){
-        document.getElementById('random-number-output').innerText = Math.random() * (max - min) + min;  
+        document.getElementById('random-number-output').innerText = Math.random() * (max - min) + min; 
+        rand =  Math.random() * (max - min) + min;
     }
+
+    var mod = rand%10;
+    setStarsInvisible();
+    setStarsVisible(mod);
 };
+
+
+function setStarsInvisible(){
+    var Stars = document.getElementsByClassName('star');
+    for(var i = 0; i < 10 ;i++)
+    {
+        Stars[i].style.visibility = "hidden";
+    }
+}
+
+function setStarsVisible(num){
+    var Stars = document.getElementsByClassName('star');
+    for(var i = 0; i < num ;i++)
+    {
+        Stars[i].style.visibility = "visible";
+    }
+}
