@@ -226,7 +226,7 @@ middleCardBtn.onclick = function(){
             playerCard = "Draco";
             break;
         case "wand":
-            playerCard = "Vedrfolnir";
+            playerCard = "Veddy";
             break;
         case "cup":
             playerCard = "Cygnus";
