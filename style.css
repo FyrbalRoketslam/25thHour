@@ -232,12 +232,17 @@ nav
 
 .enemy-deck{
     max-width: 15em;
+    float: left;
 }
 
 
 .player-deck{
     max-width: 15em;
     float: right;
+}
+
+.player-cards{
+    max-width: 15em;
 }
 
 

@@ -87,7 +87,7 @@
     </div>
 
         <!--Sword Card Deck-->
-        <div id="sword-deck" class="card-group card-container mx-auto card-deck-center">
+        <div id="sword-deck" class="card-group card-container mx-auto card-deck-center" >
             <div class="card">
             <img src="Images\ConstarotCards\SwordsCardBack.png" class="card-img-top" >
             <div class="card-body">
@@ -126,59 +126,59 @@
       <!--End Of Drawing Deck-->
 
 
-<!--Players Cards After selecting-->
-      <div id="sword-deck" class="card-group card-container mx-auto card-deck-center">
-         <!--Left Card Deck-->
-         <div class="card">
-          <img src="Images\ConstarotCards\SwordsCardBack.png" class="card-img-top" >
+<!--Players Cards After selecting (Cards in the center of the screen)-->
+      <div class="card-group card-container mx-auto player-card-deck-center" style="visibility: hidden;">
+        <!--Left Card-->
+        <div class="player-cards card">
+          <img  id ="player-left-card-img" class = "player-hand-photo" src="" class="card-img-top" >
             <div class="card-body">
-              <p>This describes the sword deck</p>
+              <p>left card</p>
             </div>
             <div class="card-footer">
-              <button id = "sword-btn" type="button" class="btn btn-primary">Select Sword Deck</button>
+              <button id = "player-left-card-btn" type="button" class="btn btn-primary">Select Sword Deck</button>
               <small class="text-muted"></small>
             </div>
         </div>
   
-          <!--Wand Card Deck-->
-          <div id="wand-deck" class="card">
-            <img src="Images\ConstarotCards\WandsCardBack.png" class="card-img-top" >
-            <div class="card-body">
-              <p>This describes the Wand deck</p>
-            </div>
-            <div class="card-footer">
-              <button id = "wand-btn" type="button" class="btn btn-primary">Select Wand Deck</button>
-              <small class="text-muted"></small>
-            </div>
+        <!--Middle Card-->
+        <div id ="player-middle-card" class="player-cards card">
+          <img id ="player-center-card-img" class = "player-hand-photo" src="" class="card-img-top" >
+          <div class="card-body">
+            <p>center card</p>
           </div>
-  
-          <!--Cup Card Deck-->
-          <div id = "cup-deck" class="card">
-            <img src="Images\ConstarotCards\CupsCardBack.png" class="card-img-top" >
-            <div class="card-body">
-              <p>This describes the Cup deck</p>
-            </div>
-            <div class="card-footer">
-              <button id = "cup-btn" type="button" class="btn btn-primary">Select Card Deck</button>
-              <small class="text-muted"></small>
-            </div>
+          <div class="card-footer">
+            <button id = "player-middle-card-btn" type="button" class="btn btn-primary">Select Wand Deck</button>
+            <small class="text-muted"></small>
           </div>
         </div>
-        <!--End Of Drawing Deck-->
+  
+        <!--Cup Card Deck-->
+        <div id ="player-right-card" class="player-cards card">
+          <img id ="player-right-card-img" class = "player-hand-photo" src="" class="card-img-top" >
+          <div class="card-body">
+            <p>right card</p>
+          </div>
+          <div class="card-footer">
+            <button id = "player-right-card-btn" type="button" class="btn btn-primary">Select Card Deck</button>
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+<!--End Of Players Hand-->
 
 
-      <!-- Player Cards -->
+<!-- Player Cards -->
       <div class='container-fluid banner-custom-player'>
         <p class='lead' style='text-align: right;'>Player Cards</p>
       </div>
 
 
-      <div class="card-group card-container player-deck">
+      <div class="card-group card-container player-deck player-card-deck-center">
         <!--Sword Deck-->
         <div id ="player-sword-cards" class="card" style="visibility: collapse; display: none;">
           <img src="Images\ConstarotCards\SwordsCardBack.png" class="card-img-top">
           <div class="card-footer">
-            <button id = "" type="button" class="btn btn-primary">View Sword Deck</button>
+            <button id = "player-sword-cards" type="button" class="btn btn-primary">View Sword Deck</button>
             <small class="text-muted"></small>
           </div>
         </div>
@@ -186,7 +186,7 @@
         <div id ="player-cup-cards" class="card" style="visibility: collapse; display: none;">
           <img src="Images\ConstarotCards\CupsCardBack.png" class="card-img-top">
           <div class="card-footer">
-            <button id = "" type="button" class="btn btn-primary">View Cup Deck</button>
+            <button id = "player-cup-cards" type="button" class="btn btn-primary">View Cup Deck</button>
             <small class="text-muted"></small>
           </div>
         </div>
@@ -194,7 +194,7 @@
         <div id ="player-wand-cards"  class="card" style="visibility: collapse; display: none;">
           <img src="Images\ConstarotCards\WandsCardBack.png" class="card-img-top">
           <div class="card-footer">
-            <button id = "" type="button" class="btn btn-primary">View Wand Deck</button>
+            <button id = "player-wand-cards" type="button" class="btn btn-primary">View Wand Deck</button>
             <small class="text-muted"></small>
           </div>
         </div>
