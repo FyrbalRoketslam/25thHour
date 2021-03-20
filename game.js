@@ -15,9 +15,9 @@ var viewWandBtn  = document.getElementById('player-wand-cards');
 var viewCupBtn   = document.getElementById('player-cup-cards');
 
 //Buttons for player to select card afte they select deck and its in the center
-var leftCardBtn = document.getElementById('player-sword-cards');
-var middleCardBtn  = document.getElementById('player-wand-cards');
-var rightCardBtn   = document.getElementById('player-cup-cards');
+var leftCardBtn = document.getElementById('player-left-card-btn');
+var middleCardBtn  = document.getElementById('player-middle-card-btn');
+var rightCardBtn   = document.getElementById('player-right-card-btn');
 
 //When the player selects the sword deck
 swordBtn.onclick = function(){
