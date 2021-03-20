@@ -133,8 +133,8 @@ viewSwordBtn.onclick = function(){
     playersDeck[i].style.visibility = "visible";
     }
 
-    playersCards[0].src = "Images/ConstarotCards/AndromedaCard.png";
-    playersCards[1].src = "Images/ConstarotCards/AndromedaCard.png";
+    playersCards[0].src = "Images/ConstarotCards/OrionCard.png";
+    playersCards[1].src = "Images/ConstarotCards/DracoCard.png";
     playersCards[2].src = "Images/ConstarotCards/AndromedaCard.png";
     
 }
@@ -147,13 +147,13 @@ viewWandBtn.onclick = function(){
     {
     playersDeck[i].style.visibility = "visible";
     }
-    playersCards[0].src = "Images/ConstarotCards/AndromedaCard.png";
-    playersCards[1].src = "Images/ConstarotCards/AndromedaCard.png";
-    playersCards[2].src = "Images/ConstarotCards/AndromedaCard.png";
+    playersCards[0].src = "Images/ConstarotCards/OphiuchusCard.png";
+    playersCards[1].src = "Images/ConstarotCards/VeddyCard.png";
+    playersCards[2].src = "Images/ConstarotCards/ByakkoCard.png";
 }
 
 
-//Cup Button ---- Playters Hand
+//Cup Button ---- Players Hand
 viewCupBtn.onclick = function(){
     var playersDeck = document.getElementsByClassName("player-card-deck-center")
     var playersCards = document.getElementsByClassName("player-hand-photo");
@@ -162,12 +162,17 @@ viewCupBtn.onclick = function(){
     {
     playersDeck[i].style.visibility = "visible";
     }
-    playersCards[0].src = "Images/ConstarotCards/AndromedaCard.png";
-    playersCards[1].src = "Images/ConstarotCards/AndromedaCard.png";
-    playersCards[2].src = "Images/ConstarotCards/AndromedaCard.png";
+    playersCards[0].src = "Images/ConstarotCards/CoronaBorealisCard.png";
+    playersCards[1].src = "Images/ConstarotCards/CygnusCard.png";
+    playersCards[2].src = "Images/ConstarotCards/LyraCard.png";
 }
 
-
+/*
+    For reference just in case:
+    Sword Cards - Orion, Draco, Andromeda
+    Wand Cards - Ophiuchus, Vedrfolnir, Byakko
+    Cup Cards - Corona Borealis, Cygnus, Lyra
+*/
 
 //Player selects left card
 leftCardBtn.onclick = function(){
@@ -188,16 +193,16 @@ leftCardBtn.onclick = function(){
 
     switch(playerHand){
         case "sword":
-
+            playerHand = "Orion";
             break;
         case "wand":
-            
-
+            playerHand = "Ophiuchus";
             break;
         case "cup":
-
+            playerHand = "CoronaBorealis";
             break;
     }
+    console.log(playerHand);
 }
 
 //Player selects middle card
@@ -217,16 +222,16 @@ middleCardBtn.onclick = function(){
     GenerateRandomEnemy();
     switch(playerHand){
         case "sword":
-
+            playerHand = "Draco";
             break;
         case "wand":
-            
-
+            playerHand = "Vedrfolnir";
             break;
         case "cup":
-
+            playerHand = "Cygnus";
             break;
     }
+    console.log(playerHand);
 }
 
 //Player selects right card
@@ -247,16 +252,21 @@ rightCardBtn.onclick = function(){
 
     switch(playerHand){
         case "sword":
-
+            playerHand = "Andromeda";
             break;
         case "wand":
-            
-
+            playerHand = "Byakko";
             break;
         case "cup":
-
+            playerHand = "Lyra";
             break;
     }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    console.log(playerHand);
+=======
+>>>>>>> Stashed changes
 }
 
 
@@ -265,4 +275,8 @@ function GenerateRandomEnemy(){
     var randomNumber = Math.floor(Math.random() * (9 - 0));
     enemyHand = allCardsNames[randomNumber];
     enemyTest.src = allCards[randomNumber];
+<<<<<<< Updated upstream
+=======
+>>>>>>> 720a4299c54a569678e8486b0d7e0a45dc746b6e
+>>>>>>> Stashed changes
 }
