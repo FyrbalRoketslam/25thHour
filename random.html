@@ -61,9 +61,42 @@
 
   <!--Content Start-->
   <div class="main-content">
-    <div id="html_btn" class="jumbotron random-jumbotron">
-        <h3>Some Random Header</h3>
-        <button type="button" class="btn btn-primary">Change HTML</button>
+    <!--Random HTML Button-->
+    <div class="jumbotron random-jumbotron">
+        <h3 id ="Random-Header">Some Random Header</h3>
+        <button id="html_btn" type="button" class="btn btn-primary">Change HTML</button>
+    </div>
+    <!--Random CSS Element-->
+    <div id="background-color" class="jumbotron random-jumbotron-css-varrient">
+        <button id = "css_btn" type="button" class="btn btn-primary">Change CSS</button>
+    </div>
+    <!--Text Box With Feedback-->
+    <div class="jumbotron random-jumbotron-css-varrient">
+        <input id='text-field' type="text"/>
+        <button id = "text-btn" type="button" class="btn btn-primary">Input Text</button>
+        <h4 id = "user-output-textbox"></h4>
+    </div>
+    <!--Random Number Generator-->
+    <div class="jumbotron random-jumbotron-css-varrient">
+        <h1 style='text-align: center;'>Random Number Generator</h1>
+        <div class ="Container">
+            <div class = "Row"> 
+                <div class="col-md-3">
+                    <p>Enter the low number</p>
+                    <input id='number1-text-field' type="text"/>
+                </div>
+                <div class="col-md-3">
+                    <p>Enter the high number</p>
+                    <input id='number2-text-field' type="text"/>
+                </div>
+                <div class="col-md-3">
+                    <button id = "random-number-button" type="button" class="btn btn-primary">Random Number</button>
+                </div>
+                <div class="col-md-3">
+                    <p id = "random-number-output"></p>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
   <!--Content Start-->
