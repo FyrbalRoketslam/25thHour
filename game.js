@@ -1,10 +1,11 @@
 //To Do
 //  1)Make the players cards not take up space when they are not visible
 //      - display: none; ???
-//  2)Make Button either not interactable when you select card or have them completely disappear
+//  2)When you select your card have the old button disapear and have a new one appear
 //  3)Log what card the enemy selects
 //  4)Have a button to click next to see your reading
-//  5) Work on overall layout
+//  5)Populate the wand, sword, and cup card photos
+//  6) Work on overall layout
 
 var playerHand = "";
 var enemyHand = "";
