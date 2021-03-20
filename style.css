@@ -184,15 +184,37 @@ nav
 /* ---- Index End --- */
 
 
+/* ---- Random Page Start ----*/
+.random-jumbotron{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: solid 3px #3e16b4;
+    background-color: #fff7ce;
+    padding: 50px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    border-radius: 37px;
+}
+
+
+
+/*----- Random Page End ----- */
+
+
 /*----- Card Game Start ------*/
 .card{
     margin-left: 20px;
     margin-right: 20px;
 }
 .card-container {
-    max-width: 60rem;
+    max-width: 50rem;
     margin-bottom: 20px;
     padding: 20px;
+}
+
+.enemy-deck{
+    max-width: 15em;
 }
 
 
