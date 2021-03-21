@@ -203,7 +203,12 @@ leftCardBtn.onclick = function(){
             playerCard = "CoronaBorealis";
             break;
     }
+<<<<<<< Updated upstream
     console.log(playerCard);
+=======
+    console.log(playerHand);
+    console.log(enemyHand);
+>>>>>>> Stashed changes
 }
 
 //Player selects middle card
@@ -232,7 +237,12 @@ middleCardBtn.onclick = function(){
             playerCard = "Cygnus";
             break;
     }
+<<<<<<< Updated upstream
     console.log(playerCard);
+=======
+    console.log(playerHand);
+    console.log(enemyHand);
+>>>>>>> Stashed changes
 }
 
 //Player selects right card
@@ -263,7 +273,12 @@ rightCardBtn.onclick = function(){
             break;
     }
 
+<<<<<<< Updated upstream
     console.log(playerCard);
+=======
+    console.log(playerHand);
+    console.log(enemyHand);
+>>>>>>> Stashed changes
 }
 
 
