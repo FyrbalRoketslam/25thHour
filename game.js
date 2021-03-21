@@ -51,13 +51,15 @@ var middleCardBtn  = document.getElementById('player-middle-card-btn');
 var rightCardBtn   = document.getElementById('player-right-card-btn');
 
 //When the player selects the sword deck
-swordBtn.onclick = function(){
+swordBtn.onclick = function()
+{
     var centerDecks = document.getElementsByClassName('card-deck-center');
     var text = document.getElementById('draw-card-text');
     var playerDeck = document.getElementById('player-sword-cards');
     var enemyDeck = document.getElementById('enemy-cards');
     //Removes center cards - wont work outside of for loop becasue im dumb
-    for(var i = 0 ; i < 1; i ++){
+    for(var i = 0 ; i < 1; i ++)
+    {
         //Removes Center selection Deck
         centerDecks[i].style.visibility = "hidden";
         centerDecks[i].style.display = "none"; 
@@ -76,7 +78,8 @@ swordBtn.onclick = function(){
 }
 
 //When the player selects the wand deck
-wandBtn.onclick = function(){
+wandBtn.onclick = function()
+{
     var centerDecks = document.getElementsByClassName('card-deck-center');
     var text = document.getElementById('draw-card-text');
     var playerDeck = document.getElementById('player-wand-cards');
@@ -100,7 +103,8 @@ wandBtn.onclick = function(){
 }
 
 //When the player selects the cup deck
-cupBtn.onclick = function(){
+cupBtn.onclick = function()
+{
     var centerDecks = document.getElementsByClassName('card-deck-center');
     var text = document.getElementById('draw-card-text');
     var playerDeck = document.getElementById('player-cup-cards');
@@ -125,7 +129,8 @@ cupBtn.onclick = function(){
 
 
 //When player has sword cards and wants to view then
-viewSwordBtn.onclick = function(){
+viewSwordBtn.onclick = function()
+{
     var playersDeck = document.getElementsByClassName("player-card-deck-center")
     var playersCards = document.getElementsByClassName("player-hand-photo");
 
@@ -141,7 +146,8 @@ viewSwordBtn.onclick = function(){
 }
 
 //Wand Button --- Players Hand
-viewWandBtn.onclick = function(){
+viewWandBtn.onclick = function()
+{
     var playersDeck = document.getElementsByClassName("player-card-deck-center")
     var playersCards = document.getElementsByClassName("player-hand-photo");
     for(var i = 0 ; i < 1; i++)
@@ -155,7 +161,8 @@ viewWandBtn.onclick = function(){
 
 
 //Cup Button ---- Players Hand
-viewCupBtn.onclick = function(){
+viewCupBtn.onclick = function()
+{
     var playersDeck = document.getElementsByClassName("player-card-deck-center")
     var playersCards = document.getElementsByClassName("player-hand-photo");
 
@@ -176,7 +183,8 @@ viewCupBtn.onclick = function(){
 */
 
 //Player selects left card
-leftCardBtn.onclick = function(){
+leftCardBtn.onclick = function()
+{
     leftCardBtn.disabled = true;
 
     var middleCard = document.getElementById("player-middle-card");
@@ -203,16 +211,13 @@ leftCardBtn.onclick = function(){
             playerCard = "CoronaBorealis";
             break;
     }
-<<<<<<< Updated upstream
-    console.log(playerCard);
-=======
     console.log(playerHand);
     console.log(enemyHand);
->>>>>>> Stashed changes
 }
 
 //Player selects middle card
-middleCardBtn.onclick = function(){
+middleCardBtn.onclick = function()
+{
     middleCardBtn.disabled = true;
     var leftCard = document.getElementById("player-left-card");
     var rightCard = document.getElementById("player-right-card");
@@ -237,16 +242,13 @@ middleCardBtn.onclick = function(){
             playerCard = "Cygnus";
             break;
     }
-<<<<<<< Updated upstream
-    console.log(playerCard);
-=======
+
     console.log(playerHand);
     console.log(enemyHand);
->>>>>>> Stashed changes
 }
-
 //Player selects right card
-rightCardBtn.onclick = function(){
+rightCardBtn.onclick = function()
+{
     rightCardBtn.disabled = true;
     var leftCard = document.getElementById("player-left-card");
     var middleCard = document.getElementById("player-middle-card");
@@ -273,16 +275,13 @@ rightCardBtn.onclick = function(){
             break;
     }
 
-<<<<<<< Updated upstream
-    console.log(playerCard);
-=======
     console.log(playerHand);
     console.log(enemyHand);
->>>>>>> Stashed changes
 }
 
 
-function GenerateRandomEnemy(){
+function GenerateRandomEnemy()
+{
     var enemyTest = document.getElementById("Test");
     var randomNumber = Math.floor(Math.random() * (9 - 0));
     enemyHand = allCardsNames[randomNumber];
