@@ -129,14 +129,19 @@ viewSwordBtn.onclick = function () {
     var playersDeck = document.getElementsByClassName("player-card-deck-center")
     var playersCards = document.getElementsByClassName("player-hand-photo");
 
+
     for (var i = 0; i < 1; i++) {
         playersDeck[i].style.visibility = "visible";
     }
-
+    //changes card images
     playersCards[0].src = "Images/ConstarotCards/OrionCard.png";
     playersCards[1].src = "Images/ConstarotCards/DracoCard.png";
     playersCards[2].src = "Images/ConstarotCards/AndromedaCard.png";
 
+    //changes button text
+    document.getElementById('player-left-card-btn').innerText = "Choose Orion";
+    document.getElementById('player-middle-card-btn').innerText = "Choose Draco";
+    document.getElementById('player-right-card-btn').innerText = "Choose Andromeda";
 }
 
 //Wand Button --- Players Hand
@@ -146,9 +151,15 @@ viewWandBtn.onclick = function () {
     for (var i = 0; i < 1; i++) {
         playersDeck[i].style.visibility = "visible";
     }
+    //Changes Player Card Images
     playersCards[0].src = "Images/ConstarotCards/OphiuchusCard.png";
     playersCards[1].src = "Images/ConstarotCards/VedrfolnirCard.png";
     playersCards[2].src = "Images/ConstarotCards/ByakkoCard.png";
+
+    //changes button text
+    document.getElementById('player-left-card-btn').innerText = "Choose Orphiuchus";
+    document.getElementById('player-middle-card-btn').innerText = "Choose Vedrfolnir";
+    document.getElementById('player-right-card-btn').innerText = "Choose Byakko";
 }
 
 
@@ -160,9 +171,15 @@ viewCupBtn.onclick = function () {
     for (var i = 0; i < 1; i++) {
         playersDeck[i].style.visibility = "visible";
     }
+    //Changes Player Card Images
     playersCards[0].src = "Images/ConstarotCards/CoronaBorealisCard.png";
     playersCards[1].src = "Images/ConstarotCards/CygnusCard.png";
     playersCards[2].src = "Images/ConstarotCards/LyraCard.png";
+
+    //changes button text
+    document.getElementById('player-left-card-btn').innerText = "Choose Corona Borealis";
+    document.getElementById('player-middle-card-btn').innerText = "Choose Cygnus";
+    document.getElementById('player-right-card-btn').innerText = "Choose Lyra";
 }
 
 /*
@@ -204,7 +221,7 @@ leftCardBtn.onclick = function () {
     console.log(enemyHand);
 
     var output = FinalReading(playerCard, enemyHand);
-    setTimeout(function() {DisplayReading(output);}, 3500)
+    setTimeout(function() {DisplayReading(output);}, 2500)
 
 }
 
@@ -239,7 +256,7 @@ middleCardBtn.onclick = function () {
     console.log(enemyHand);
 
     var output = FinalReading(playerCard, enemyHand);
-    setTimeout(function() {DisplayReading(output);}, 3500)
+    setTimeout(function() {DisplayReading(output);}, 2500)
 }
 //Player selects right card
 rightCardBtn.onclick = function () {
@@ -273,7 +290,7 @@ rightCardBtn.onclick = function () {
     console.log(enemyHand);
 
     var output = FinalReading(playerCard, enemyHand);
-    setTimeout(function() {DisplayReading(output);}, 3500)
+    setTimeout(function() {DisplayReading(output);}, 2500)
 }
 
 
