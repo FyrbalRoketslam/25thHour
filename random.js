@@ -38,7 +38,7 @@ randomNumberButton.onclick = function(){
     var rand = 0;
     if(min.length > 0 && max.length > 0){
         document.getElementById('random-number-output').innerText = Math.random() * (max - min) + min; 
-        rand =  Math.random() * (max - min) + min;
+        rand =  Math.floor(Math.random() * (max - min) + min);
     }
 
     var mod = rand%10;
