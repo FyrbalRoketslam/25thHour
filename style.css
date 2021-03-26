@@ -308,7 +308,11 @@ nav
     box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
     border-radius: 37px;
 }
-
+.Zodiac_Content
+{
+    border: solid 3px black;
+    background-color: green;
+}
 .box-image
 {
     width:40%;
@@ -1041,6 +1045,12 @@ time
 /*GALAXY*/
 /** * I was out the other evening looking at Venus with the setting sun and thought, I wonder where all the planets * are in relation to each other right now. I knew what an Orrery was, but I'd never built one. So, given my mate * Donovan's (@donovanh: http://cssanimation.rocks/) penchant for CSS animation, I thought I'd give it a go * building one in pure CSS. * * Many thanks to @aidandore and @iandevlin too for suggestions and improvements * * Chin up Pluto. You'll always be a planet to me... * * Tady: http://tady.me * @tadywankenobi */
 /** * Move in a circle without wrapper elements * Idea by Aryeh Gregor, simplified by Lea Verou, borrowed by me! */
+.col-6 zodiac
+{
+    border:2px solid black;
+    background-color: chartreuse;
+}
+
 .galaxy_body {
    
     background-image: url('https://cssanimation.rocks/starwars/images/bg.jpg');
