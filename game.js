@@ -53,10 +53,10 @@ var rightCardBtn = document.getElementById('player-right-card-btn');
 //reset Button
 var reset = document.getElementById("goToCardGame");
 
-reset.onClick = function(){
-    console.log("reloading page");
-    window.location.reload();
-}
+//reset.onClick = function(){
+//    console.log("reloading page");
+//    window.location.reload();
+//}
 
 //When the player selects the sword deck
 swordBtn.onclick = function () {
