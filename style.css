@@ -350,15 +350,46 @@ nav
     margin-bottom: 50px;
     /* border: solid 3px #3e16b4; */
     background-color: #202020;
-    padding: 50px;
+    padding: 20px;
     box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
     border-radius: 37px;
     color: #f1d8fe;
 }
-.Zodiac_Content
-{
+.Zodiac_Content li{
+ color:black;
+ font: size 24px;
+ font-weight:bolder;
+text-align: center;
+}
+.Zodiac_Content h1{
+    -webkit-text-stroke: 1.5px black;
+}
+
+#Zod1 {
+
     border: solid 3px black;
-    background-color: green;
+    background-color: rgb(248, 92, 44);
+    
+}
+
+#Zod2 {
+
+    border: solid 3px black;
+    background-color: rgb(38, 134, 0);
+}
+
+#Zod3 {
+
+    border: solid 3px black;
+    background-color: rgb(242, 245, 101);
+}
+
+#Zod4 {
+
+    border: solid 3px black;
+    background-color: rgb(14, 111, 238);
+    
+
 }
 .box-image
 {
@@ -1102,6 +1133,8 @@ time
 {
     border:2px solid black;
     background-color: chartreuse;
+    
+   
 }
 
 .galaxy_body {
