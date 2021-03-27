@@ -885,12 +885,18 @@ time
 
 .Katherine #Image
 {
-    align-content: center;
+    display: flex;
     padding: 50px;
+    width: 50px;
     animation-name: KateFadeIn;
     animation-duration: 1s;
     animation-iteration-count: 1;
     transition: ease-out;
+}
+
+.Katherine img
+{
+    width: 500px;
 }
 
 .Katherine #byline
