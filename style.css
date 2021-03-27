@@ -310,6 +310,10 @@ nav
     max-width: 15em;
 }
 
+.resetButtonClass{
+    text-align: right;
+}
+
 
 
 

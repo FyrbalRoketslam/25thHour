@@ -50,6 +50,14 @@ var leftCardBtn = document.getElementById('player-left-card-btn');
 var middleCardBtn = document.getElementById('player-middle-card-btn');
 var rightCardBtn = document.getElementById('player-right-card-btn');
 
+//reset Button
+var reset = document.getElementById("goToCardGame");
+
+reset.onClick = function(){
+    console.log("reloading page");
+    window.location.reload();
+}
+
 //When the player selects the sword deck
 swordBtn.onclick = function () {
     var centerDecks = document.getElementsByClassName('card-deck-center');
@@ -538,3 +546,5 @@ function DisplayReading(reading){
 
     document.getElementById('card-reading-output').innerText = reading;
 }
+
+
