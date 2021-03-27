@@ -1938,6 +1938,19 @@ div[class$="-ring"] {
 {
     background-color: #dfdced;
 }
+.AlanJumbo
+{
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+/* border: solid 3px #3e16b4; */
+    background-color: #202020;
+    padding: 50px;
+    box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
+  border-radius: 37px;
+  color: #f1d8fe;
+}
 .KillianBGColor
 {
     background-color: #dce2ed;
