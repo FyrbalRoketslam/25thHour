@@ -6,7 +6,7 @@ h2 {text-align: center;}
 h3 {text-align: center;}
 body
 {
-    background-color: #D6D6D6;
+    background-color: #000000;
 }
 
 
@@ -156,7 +156,7 @@ nav
 
 .footer{
     min-height: 150px;
-    background: #5A3AB9;
+    background:  rgba(128, 0, 128, 0.452);
     width: 100%;
     margin: 0 auto;
 }
@@ -174,13 +174,45 @@ nav
   margin-top: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
-  border: solid 3px #3e16b4;
-  background-color: #fff7ce;
-  padding: 50px;
-  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+/* border: solid 3px #3e16b4; */
+    background-color: #202020;
+    padding: 50px;
+    box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
   border-radius: 37px;
+  color: #3c3142;
 }
 
+.our-team h1
+{
+    color: #f1d8fe;
+}
+
+#EliseCard
+{
+    background-color: #eddcde;
+    color: #3c3142;
+}
+
+#KatherineCard
+{
+    background-color: #eddcde;
+    color: #3c3142;
+}
+#RobCard
+{
+    background-color: #dcedeb;
+    color: #3c3142;
+}
+#AlanCard
+{
+    background-color: #dfdced;
+    color: #3c3142;
+}
+#KillianCard
+{
+    background-color: #dce2ed;
+    color: #3c3142;
+}
 /* ---- Index End --- */
 
 
@@ -190,11 +222,12 @@ nav
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    border: solid 3px #3e16b4;
-    background-color: #fff7ce;
+    /* border: solid 3px #3e16b4; */
+    background-color: #202020;
     padding: 50px;
-    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
     border-radius: 37px;
+    color: #f1d8fe;
 }
 
 .random-jumbotron-css-varrient{
@@ -202,11 +235,12 @@ nav
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    border: solid 3px #3e16b4;
-    background-color: #fff7ce;
+    /* border: solid 3px #3e16b4; */
+    background-color: #202020;
     padding: 50px;
-    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
     border-radius: 37px;
+    color: #f1d8fe;
 }
 
 
@@ -220,23 +254,33 @@ nav
 
 
 /*----- Card Game Start ------*/
+#GamePage button
+{
+    background-color:  rgba(128, 0, 128, 0.452);
+    color: #f1d8fe;
+    border: 0px;
+}
+
 .card-game-jumbotron{
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    border: solid 3px #3e16b4;
-    background-color: #fff7ce;
+    /* border: solid 3px #3e16b4; */
+    background-color: #202020;
     padding: 50px;
-    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
     border-radius: 37px;
     margin-left: 60px;
     margin-right: 60px;
+    color: #f1d8fe;
 }
 
 .card{
     margin-left: 20px;
     margin-right: 20px;
+    background-color: #202020;
+    color: #f1d8fe;
 }
 .card-container {
     max-width: 50rem;
@@ -278,11 +322,12 @@ nav
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    border: solid 3px #3e16b4;
-    background-color: #fff7ce;
+    /* border: solid 3px #3e16b4; */
+    background-color: #202020;
     padding: 50px;
-    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
     border-radius: 37px;
+    color: #f1d8fe;
 }
 /*Tags Page*/
 .Tags_Content{
@@ -290,11 +335,12 @@ nav
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    border: solid 3px #3e16b4;
-    background-color: #fff7ce;
+    /* border: solid 3px #3e16b4; */
+    background-color: #202020;
     padding: 50px;
-    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
     border-radius: 37px;
+    color: #f1d8fe;
 }
 /*Nested Page*/
 .Nested_Content{
@@ -302,11 +348,12 @@ nav
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    border: solid 3px #3e16b4;
-    background-color: #fff7ce;
+    /* border: solid 3px #3e16b4; */
+    background-color: #202020;
     padding: 50px;
-    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.70);
+    box-shadow: 0 1.5px 3px 0 rgba(15, 9, 49, 0.7);
     border-radius: 37px;
+    color: #f1d8fe;
 }
 .Zodiac_Content
 {
@@ -1836,3 +1883,25 @@ div[class$="-ring"] {
 }
 
 /*GALAXY END*/
+
+.EliseBGColor
+{
+    background-color: #eddedc;
+}
+.KatherineBGColor
+{
+    background-color: #eddcde;
+}
+.RobBGColor
+{
+    background-color: #dcedeb;
+}
+.AlanBGColor
+{
+    background-color: #dfdced;
+}
+.KillianBGColor
+{
+    background-color: #dce2ed;
+}
+
