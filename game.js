@@ -481,8 +481,8 @@ function FinalReading(card1, card2) {
         case "CygnusCygnus":
             return("Cygnus was immortalized in the stars for his devotion to finding Icarus after his fall. Like Cygnus, you are searching for a lost love you may or may not have ever known. You search tirelessly, but it will get you nowhere if you disregard yourself. Take time to breath and mourn.");
             break;
-
-            case "CygnusLyra" || "LyraCygnus":
+            case "LyraCygnus":
+            case "CygnusLyra":
                 return("You may be in an awful situation. Let yourself mourn for what was, focusing on what could be.");
                 break;
 
