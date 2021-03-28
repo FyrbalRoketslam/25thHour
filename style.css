@@ -1144,18 +1144,7 @@ time
     transform: scale(0.75);
 }
 
-@media screen and (min-width:750px)
-{
-    .galaxy_body
-    {
-      width:150%;
-    }
-    .footer
-    {
-        display: none;
-    }
-   
-}
+
 
 
 .sun {
