@@ -78,18 +78,14 @@ body
 nav
 {
     height: 40px;
+    width: max-content;
 }
 
 
-@media (max-width: 768px)
-{
-    .navbar-nav.navbar-center {
 
-    }
-
-}
 
 .nav-item,a{
+
     padding: 0px 20px;
 }
 .navbar{
@@ -406,18 +402,7 @@ text-align: center;
     display:block;
     object-fit: cover;
 }
-@media (max-width: 800px)
-{
-    .row
-    {
-        flex-direction: column;
-        height: 1000px;
-    }
-    .column
-    {
-        height: 300px;
-    }
-}
+
 .image {
     position: relative;
     width: relative;
@@ -1153,12 +1138,26 @@ time
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
     -webkit-transform: scale(0.75);
     -moz-transform: scale(0.75);
     transform: scale(0.75);
 }
+
+@media screen and (min-width:750px)
+{
+    .galaxy_body
+    {
+      width:150%;
+    }
+    .footer
+    {
+        display: none;
+    }
+   
+}
+
+
 .sun {
     width: 144px;
     height: 144px;
